@@ -1,6 +1,7 @@
 #include <iostream>
 #include <IMGP3>
-  
+int main()
+    {
 //Importing Image
 P3::Import("Img.png");
 
@@ -17,3 +18,5 @@ P3::Mouse_input(Left_Click);
 //how the model should be moving
 //it can be changed in imgp3 header file
 P3::Move_Model(time, /*x*/6 , /*y*/7 );
+return 0;
+  }
